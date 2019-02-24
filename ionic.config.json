@@ -1,0 +1,13 @@
+{
+  "name": "sigec",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/autenticar",
+      "proxyUrl": "http://sigecservices-env.zwqvwnctv9.sa-east-1.elasticbeanstalk.com/servicos/autenticacaoservice/autenticar"
+    }
+  ]
+}

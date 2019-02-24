@@ -1,0 +1,29 @@
+  <ion-header></ion-header>
+
+  <ion-content padding>           
+
+      <div class="splash-bg"></div>
+      <div class="splash-info">
+          
+          <div class="splash-logo"></div>
+          <div class="splash-intro">Sistema de Gerenciamento de Cursos</div>
+      
+      </div>
+  
+  <div padding>
+      <!--  FORMULARIO DE LOGIN-->
+      <ion-item>
+          <ion-label floating>E-mail</ion-label>
+          <ion-input type="text" [(ngModel)]="usuario.email"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+          <ion-label floating>Senha</ion-label>
+          <ion-input type="password" [(ngModel)]="usuario.senha"></ion-input>
+      </ion-item>
+    
+      <button ion-button block (click)="login(usuario)">Entrar</button>
+
+  </div>
+
+</ion-content>
